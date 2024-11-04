@@ -1,0 +1,87 @@
+.card-info {
+    background-color: white;
+    width: 20.2em;
+    height: 21.5em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 20);
+    padding: 1em;
+    transition: transform 0.4s ease;
+}
+
+.card-info:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+.img-info-me {
+    width: 18em;
+}
+
+.card-info-me {
+    width: 27em;
+    height: 44.5em;
+}
+
+.card-info ul  li {
+    color: black;
+}
+
+.img-info {
+    width: 4em;
+}
+
+#title-datos-personales {
+    color: #58d68d;
+}
+
+#title-habilidades-blandas {
+    color: #d35400;
+}
+
+#title-educacion {
+    color: #5dade2;
+}
+
+#title-experiencia {
+    color: #95a5a6;
+}
+
+#title-personalidad {
+    color: #f1c40f;
+}
+
+.container-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cards-about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+}
+
+.container-cards p, strong {
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .card-info-me {
+        width: 20em;
+        height: 42em;
+        margin: 1em auto;
+    }
+
+    .container-cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 1em;
+    }
+
+    .cards-about {
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+    }
+}

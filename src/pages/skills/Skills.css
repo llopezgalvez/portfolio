@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor-info-skills {
+    background-color: #394261;
+    margin-top: 2em;
+    padding: 2em;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.container-skills {
+    min-height: 100vh;
+    margin-bottom: 2em;
+}
+
+.title-skills {
+    margin-top: 1em;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0.6em;
+}
+
+.description-skills {
+    color: white;
+    padding-bottom: 1.3em;
+}
+
+.title-area {
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .title-skills {
+        margin-top: 1em;
+    }
+}

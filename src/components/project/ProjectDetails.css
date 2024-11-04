@@ -1,0 +1,112 @@
+* {
+    color: white;
+}
+
+.images-project {
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.carrusel {
+    width: 48em;
+}
+
+.project-info {
+    margin-top: 3em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3em;
+}
+
+.TimelineItemContentWrapper-sc-d7qjm1-0 {
+    white-space: pre-wrap;
+}
+
+.description-project {
+    text-align: justify;
+}
+
+.container-button {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-github {
+    margin-top: 0.5em;
+}
+
+.img-back {
+    margin-top: 6em;
+    height: 2.5em;
+    position: absolute;
+    top: 10px;
+    right: 95%;
+    z-index: 1000;
+}
+
+.strong-project-details {
+    color: white;
+}
+
+.ToolbarWrapper-sc-exupb5-0 {
+    display: none !important;
+}
+
+.TriangleIconWrapper-sc-d7qjm1-11 {
+    display: none !important;
+}
+
+.my-card-text, .TimelineContentDetails-sc-d7qjm1-5 {
+    color: white !important;
+}
+
+.title-prject {
+    text-align: center;
+    margin-bottom: 0; 
+    width: 9.5em;
+}
+
+.TimelineVerticalWrapper-sc-1427v1d-0 {
+    width: 45em;
+    height: 23em;
+}
+
+@media (max-width: 768px) {
+    .project-info {
+        grid-template-columns: 1fr;
+    }
+
+    .carrusel {
+        width: auto;
+    }
+
+    .images-project {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .btn-github {
+        margin-bottom: 1.5em;
+    }
+
+    .img-back {
+        margin-top: 2.7em;
+        right: 85%;
+    }
+
+    .img-back {
+        display: none;
+    }
+
+    .TimelineVerticalWrapper-sc-1427v1d-0 {
+        width: auto;
+        height: auto;
+    }
+
+    .carousel-inner {
+        height: 13em;
+    }
+
+}   
