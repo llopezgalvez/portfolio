@@ -32,7 +32,7 @@ export const About = () => {
                             <h2 className='mb-3' id='title-habilidades-blandas'>Habilidades Blandas</h2>
                             <ul className='list-unstyled'>
                                 <li>Trabajo en equipo</li>
-                                <li>Comunicacción efectiva</li>
+                                <li>Comunicación efectiva</li>
                                 <li>Adaptabilidad</li>
                                 <li>Resolución de problemas</li>
                                 <li>Proactividad</li>
@@ -43,7 +43,7 @@ export const About = () => {
                             <img className='img-info' src={educacion} alt="Educación" />
                             <h2 id='title-educacion'>Educación</h2>
                             <p>Perito en Computación | 2022 - 2024</p>
-                            <p>Estudios en Fundación Kinal Completé tres años de formación como Perito en Computación, donde aprendí programación, bases de datos y desarrollo web. También adquirí experiencia práctica en Java y metodologías de trabajo en equipo.</p>
+                            <p>Estudié en Fundación Kinal, completé tres años de formación como Perito en Computación, donde aprendí programación, bases de datos y desarrollo web. También adquirí experiencia práctica en Java y metodologías de trabajo en equipo.</p>
                         </div>
                         <div className="card card-info text-center d-flex align-items-center ">
                             <img className='img-info' src={experiencia} alt="Experiencia" />
@@ -53,7 +53,7 @@ export const About = () => {
                         <div className="card card-info text-center d-flex justify-content-center align-items-center" id='card-personalidad'>
                             <img className='img-info' src={personalidad} alt="Personalidad" />
                             <h2 id='title-personalidad'>Personalidad</h2>
-                            <p>Soy una persona proactiva y entusiasta, siempre dispuesta a aprender y enfrentar nuevos desafíos. Me considero un buen comunicador, lo que me permite trabajar de manera efectiva en equipo y construir relaciones sólidas con mis compañeros.</p>
+                            <p>Soy una persona proactiva y entusiasta, siempre dispuesto a aprender y enfrentar nuevos desafíos. Me considero un buen comunicador, lo que me permite trabajar de manera efectiva en equipo y construir relaciones sólidas con mis compañeros.</p>
                         </div>
                     </div>
                 </div>

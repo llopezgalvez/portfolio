@@ -32,6 +32,7 @@
 .description-projects {
     text-align: center;
     margin-top: 1em;
+    font-size: 1.2em;
 }
 
 .container-btns {
@@ -56,6 +57,7 @@
 @media (max-width: 768px) {
     .description-projects {
         text-align: justify;
+        font-size: 1em;
     }
 
     .container-btns {

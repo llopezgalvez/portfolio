@@ -26,6 +26,7 @@
 .description-skills {
     color: white;
     padding-bottom: 1.3em;
+    font-size: 1.2em;
 }
 
 .title-area {
@@ -35,5 +36,11 @@
 @media (max-width: 768px) {
     .title-skills {
         margin-top: 1em;
+    }
+
+    .description-skills {
+        color: white;
+        padding-bottom: 1.3em;
+        font-size: 1.1em;
     }
 }

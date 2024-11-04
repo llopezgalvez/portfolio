@@ -26,6 +26,7 @@ body {
 
 .home-text-description {
     color: white;
+    font-size: 1.2em;
 }
 
 .img-profile {
@@ -78,6 +79,7 @@ body {
 
     .home-text-description {
         text-align: justify;
+        font-size: 1.1em;
     }
 
     .home-redes {
