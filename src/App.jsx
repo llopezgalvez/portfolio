@@ -6,12 +6,17 @@ import { Projects } from './pages/projects/Projects'
 import { ProjectDetails } from './components/project/ProjectDetails'
 import { About } from './pages/about/About'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import iconPortfolio from '../src/assets/imagesProjects/iconPortfolio.png'
 
 function App() {
 
   useEffect(() => {
     document.title = 'Portfolio | Lester López'
-  })
+    const link = document.createElement('link')
+    link.rel = 'icon'
+    link.href = iconPortfolio
+    document.head.appendChild(link)
+  }, [])
 
   return (
     <BrowserRouter>
