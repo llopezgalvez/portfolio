@@ -1,12 +1,8 @@
 import React from 'react'
-import photo from '../../assets/images/image1.png'
-import instagram from '../../assets/images/instagram.png'
-import linkedin from '../../assets/images/linkedin.png'
-import whatsApp from '../../assets/images/whatsapp.png'
-import facebook from "../../assets/images/facebook.png"
-import github from "../../assets/images/github.png"
 import { Navbar } from '../../components/navbar/Navbar'
-import { Linkedin, Github, Instagram, Facebook } from 'lucide-react';
+import { Linkedin, Github, Mail, File } from 'lucide-react'
+import cv from '../../assets/CV.pdf'
+import profile from '../../assets/imagesProjects/perfil-remove.png'
 import './Home.css'
 
 export const Home = () => {
@@ -27,23 +23,28 @@ export const Home = () => {
             <a href='/projects' className='btn btn-info btn-projects'>Proyectos</a>
             <a href='/about' className='btn btn-outline-light btn-about'>Sobre mí</a>
           </div>
-          <div className='home-redes'>
-            {/* <a href="https://www.instagram.com/lesterlopez11/profilecard/" target='_blank' rel="noopener noreferrer">
-              <Instagram size={40} className='icon'/>
-            </a> */}
-            <a href="https://www.linkedin.com/in/lester-lópez-7a594331a" target='_blank' rel="noopener noreferrer">
-              <Linkedin size={40} className='icon'/>
+          <div className="home-redes">
+            <a href="https://www.linkedin.com/in/lester-lópez-7a594331a" target='_blank' rel="noopener noreferrer" className="icon-container">
+              <Linkedin size={40} />
+              <span className="icon-text">LinkedIn</span>
             </a>
-            {/* <a href="https://www.facebook.com/share/1H5m4x6TFtjB7Cyk/"target='_blank' rel="noopener noreferrer">
-              <Facebook size={40} className='icon' />
-            </a> */}
-            <a href="https://github.com/llopezgalvez" target='_blank' rel="noopener noreferrer">
-              <Github size={40} className='icon'/>
+            <a href="https://github.com/llopezgalvez" target='_blank' rel="noopener noreferrer" className="icon-container">
+              <Github size={40} />
+              <span className="icon-text">GitHub</span>
+            </a>
+            <a href="mailto:lopezgalvezlester@gmail.com" className="icon-container">
+              <Mail size={40} />
+              <span className="icon-text">Email</span>
+            </a>
+            <a href={cv} download="LesterLópez-CV.pdf" className="icon-container">
+              <File size={40} />
+              <span className="icon-text">CV</span>
             </a>
           </div>
+
         </div>
         <div className='home-img-container'>
-          <img className='img-profile d-flex justify-content-center align-items-center' src={photo} alt="my photo of profile" />
+          <img className='img-profile d-flex justify-content-center align-items-center' src={profile} alt="my photo of profile" />
         </div>
       </div>
     </>

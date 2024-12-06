@@ -15,7 +15,11 @@
 }
 
 .img-info-me {
-    width: 18em;
+    width: 15em;
+    height: 15em;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: #95a5a6;
 }
 
 .card-info-me {
@@ -32,7 +36,7 @@
 }
 
 #title-datos-personales {
-    color: #58d68d;
+    color:  #01c891 ;
 }
 
 #title-habilidades-blandas {

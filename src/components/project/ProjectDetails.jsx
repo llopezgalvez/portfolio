@@ -80,7 +80,7 @@ export const ProjectDetails = () => {
                   }}
                 />
               </div>
-              <div className="container-button">
+              <div className="container-button m-4">
                 <a className='btn btn-success btn-github' href={project.repositori}>
                   <GithubIcon /> Repositorio
                 </a>

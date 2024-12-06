@@ -3,7 +3,7 @@ import habilidades from '../../assets/images/habilidades-blandas.png'
 import personalidad from '../../assets/images/personalidad.png'
 import educacion from '../../assets/images/educacion.png'
 import experiencia from '../../assets/images/experiencia.png'
-import photo from '../../assets/images/image1.png'
+import profile from '../../assets/imagesProjects/perfil-remove.png'
 import { Navbar } from '../../components/navbar/Navbar'
 import './About.css'
 
@@ -16,12 +16,12 @@ export const About = () => {
                 <div className="container-cards">
                     <div>
                         <div className="card card-info-me text-center p-3 d-flex justify-content-center align-items-center">
-                            <img className='img-info-me mb-2' src={photo} alt="" />
+                            <img className='img-info-me mb-2' src={profile} alt="" />
                             <h2 className='mb-3' id='title-datos-personales'>Datos Personales</h2>
                             <p><strong>Nombre:</strong> Lester René López Gálvez</p>
                             <p><strong>Teléfono:</strong> 4206 6209</p>
                             <p><strong>Correo:</strong> lopezgalvezlester@gmail.com</p>
-                            <p><strong>Edad:</strong> 18 años</p>
+                            <p><strong>Edad:</strong> 19 años</p>
                             <p><strong>Localidad:</strong> Ciudad de Guatemala, Villa Nueva</p>
                             <a className='btn btn-success mt-3' href="/contact">Contáctame</a>
                         </div>

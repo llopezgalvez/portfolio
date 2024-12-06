@@ -4,7 +4,7 @@ import correo from "../../assets/images/correo.png"
 import telefono from "../../assets/images/telefono.png"
 import ubicacion from "../../assets/images/ubicacion.png"
 import imgContact from "../../assets/images/contact-img.png"
-import { Linkedin, Github, Instagram, Facebook } from 'lucide-react';
+import { Linkedin, Github, Mail } from 'lucide-react';
 import './Contact.css'
 import { Navbar } from './../../components/navbar/Navbar';
 
@@ -41,11 +41,11 @@ export const Contact = () => {
                         <p className='description-contact'>Gracias por tu interés en contactarte conmigo. Valoro tu interés en conocer más sobre mi experiencia y capacidades. Por favor, deja tus datos y me pondré en contacto contigo lo antes posible.</p>
                         <div className="mb-3">
                             <label htmlFor="name" className="form-label">Nombre</label>
-                            <input type="text" className="form-control" id="name" name="user_name" placeholder="Rodrigo Juarez" required />
+                            <input type="text" autoFocus className="form-control" id="name" name="user_name" placeholder="Rodrigo Gálvez" required />
                         </div>
                         <div className="mb-3">
                             <label htmlFor="email" className="form-label">Email</label>
-                            <input type="email" className="form-control" id="email" name="user_email" placeholder="rjuarez@gmail.com" required />
+                            <input type="email" className="form-control" id="email" name="user_email" placeholder="rgalvez@gmail.com" required />
                         </div>
                         <div className="mb-3">
                             <label htmlFor="message" className="form-label">Mensaje</label>
@@ -75,15 +75,12 @@ export const Contact = () => {
                         </div>
                     </div>
                     <div className="redes d-flex justify-content-center">
-                        {/* <a href="https://www.instagram.com/lesterlopez11/profilecard/" target='_blank' rel="noopener noreferrer">
-                            <Instagram size={40} className='icon'/>
-                        </a> */}
+                        <a href="mailto:lopezgalvezlester@gmail.com">
+                            <Mail size={40} className='icon' />
+                        </a>
                         <a href="https://www.linkedin.com/in/lester-lópez-7a594331a" target='_blank' rel="noopener noreferrer">
                             <Linkedin size={40} className='icon' />
                         </a>
-                        {/* <a href="https://www.facebook.com/share/1H5m4x6TFtjB7Cyk/" target='_blank' rel="noopener noreferrer">
-                            <Facebook size={40} className='icon' />
-                        </a> */}
                         <a href="https://github.com/llopezgalvez" target='_blank' rel="noopener noreferrer">
                             <Github size={40} className='icon' />
                         </a>

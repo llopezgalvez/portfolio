@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    font-family: "Parkinsans", sans-serif;
 }
 
 body {
@@ -12,6 +15,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
     gap: 1em;
     align-items: center;
+    margin-top: 2em;
 }
 
 .home-title {
@@ -29,18 +33,60 @@ body {
     font-size: 1.2em;
 }
 
+@keyframes animation {
+    0% {
+        border: 3px solid #A3D8F4;
+        /* Azul claro */
+        box-shadow: 0 0 20px rgba(163, 216, 244, 0.8);
+    }
+
+    25% {
+        border: 3px solid #32F1B2;
+        /* Verde menta */
+        box-shadow: 0 0 20px rgba(50, 241, 178, 0.8);
+    }
+
+    50% {
+        border: 3px solid #8E5CE0;
+        /* Violeta */
+        box-shadow: 0 0 20px rgba(191, 74, 238, 0.8);
+    }
+
+    75% {
+        border: 3px solid #F0A558;
+        /* Naranja Claro */
+        box-shadow: 0 0 20px rgba(240, 165, 88, 0.8);
+    }
+
+    100% {
+        border: 3px solid #A3D8F4;
+        /* Azul claro */
+        box-shadow: 0 0 20px rgba(163, 216, 244, 0.8);
+    }
+}
+
 .img-profile {
-    max-width: 100%;
-    height: auto; 
-    display: block; 
-    margin: 0 auto; 
+    width: 30em;
+    height: 30em;
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    padding: 0.25em;
+    object-fit: cover;
+    border-radius: 50%;
+    animation: animation 3s ease-in-out infinite;
+}
+
+.btn-projects {
+    color: white;
 }
 
 .icon {
     margin-top: 1em;
     margin-right: 1em;
 }
-.btn-about{
+
+.btn-about {
     margin-left: 1em;
 }
 
@@ -57,6 +103,41 @@ body {
     color: white;
 }
 
+.home-redes {
+    display: flex;
+    margin-top: 2em;
+    gap: 2em;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1c1f38;
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
+    padding: 15px;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+}
+
+.icon-container:hover {
+    background-color: #4f5d7a;
+    transform: scale(1.1);
+}
+
+.icon-container .icon-text {
+    margin-top: 0.5em;
+    color: #ffffff;
+    font-size: 0.8em;
+}
+
+.icon {
+    color: white;
+}
+
 @media (max-width: 768px) {
 
     .home {
@@ -64,11 +145,21 @@ body {
     }
 
     .container {
-        grid-template-columns: 1fr; 
+        grid-template-columns: 1fr;
     }
 
     .home-img-container {
-        display: none;
+        order: 1;
+        margin-bottom: 2em;
+    }
+
+    .img-profile {
+        width: 18em;
+        height: 18em;
+    }
+
+    .home-text-container {
+        order: 2;
     }
 
     .home-buttons {
@@ -83,11 +174,32 @@ body {
     }
 
     .home-redes {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1em;
         margin-top: 2em;
+        padding: 1.3em;
     }
 
+    .icon-container {
+        width: 6em;
+        height: 6em;
+        padding: 10px;
+    }
 
+    .icon-container .icon-text {
+        font-size: 1em;
+    }
+
+    .icon-container:hover {
+        transform: scale(1);
+    }
+
+    .home-title {
+        text-align: center;
+    }
+
+    .home-subtitle {
+        text-align: center;
+    }
 }
