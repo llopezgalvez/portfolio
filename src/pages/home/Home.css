@@ -36,31 +36,26 @@ body {
 @keyframes animation {
     0% {
         border: 3px solid #A3D8F4;
-        /* Azul claro */
         box-shadow: 0 0 20px rgba(163, 216, 244, 0.8);
     }
 
     25% {
         border: 3px solid #32F1B2;
-        /* Verde menta */
         box-shadow: 0 0 20px rgba(50, 241, 178, 0.8);
     }
 
     50% {
         border: 3px solid #8E5CE0;
-        /* Violeta */
         box-shadow: 0 0 20px rgba(191, 74, 238, 0.8);
     }
 
     75% {
         border: 3px solid #F0A558;
-        /* Naranja Claro */
         box-shadow: 0 0 20px rgba(240, 165, 88, 0.8);
     }
 
     100% {
         border: 3px solid #A3D8F4;
-        /* Azul claro */
         box-shadow: 0 0 20px rgba(163, 216, 244, 0.8);
     }
 }
@@ -106,7 +101,6 @@ body {
 .home-redes {
     display: flex;
     margin-top: 2em;
-    gap: 2em;
 }
 
 .icon-container {
@@ -174,11 +168,12 @@ body {
     }
 
     .home-redes {
-        flex-direction: row;
         flex-wrap: wrap;
-        gap: 1em;
         margin-top: 2em;
         padding: 1.3em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .icon-container {

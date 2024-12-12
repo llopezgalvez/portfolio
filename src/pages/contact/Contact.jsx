@@ -4,7 +4,8 @@ import correo from "../../assets/images/correo.png"
 import telefono from "../../assets/images/telefono.png"
 import ubicacion from "../../assets/images/ubicacion.png"
 import imgContact from "../../assets/images/contact-img.png"
-import { Linkedin, Github, Mail } from 'lucide-react';
+import { Linkedin, Github, Mail, File } from 'lucide-react'
+import cv from '../../assets/CV.pdf'
 import './Contact.css'
 import { Navbar } from './../../components/navbar/Navbar';
 
@@ -75,14 +76,21 @@ export const Contact = () => {
                         </div>
                     </div>
                     <div className="redes d-flex justify-content-center">
-                        <a href="mailto:lopezgalvezlester@gmail.com">
-                            <Mail size={40} className='icon' />
+                        <a href="mailto:lopezgalvezlester@gmail.com" className='icon-container'>
+                            <Mail size={40} />
+                            <span className="icon-text">Email</span>
                         </a>
-                        <a href="https://www.linkedin.com/in/lester-lópez-7a594331a" target='_blank' rel="noopener noreferrer">
-                            <Linkedin size={40} className='icon' />
+                        <a href="https://www.linkedin.com/in/lester-lópez-7a594331a" className='icon-container' target='_blank' rel="noopener noreferrer">
+                            <Linkedin size={40} />
+                            <span className='icon-text'>LinkedIn</span>
                         </a>
-                        <a href="https://github.com/llopezgalvez" target='_blank' rel="noopener noreferrer">
-                            <Github size={40} className='icon' />
+                        <a href="https://github.com/llopezgalvez" className='icon-container' target='_blank' rel="noopener noreferrer">
+                            <Github size={40} />
+                            <span className='icon-text'>Github</span>
+                        </a>
+                        <a href={cv} download="LesterLópez-CV.pdf" className="icon-container">
+                            <File size={40} />
+                            <span className="icon-text">CV</span>
                         </a>
                     </div>
                 </div>
