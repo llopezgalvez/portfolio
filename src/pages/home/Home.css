@@ -198,3 +198,70 @@ body {
         text-align: center;
     }
 }
+
+@media (max-width: 900px) {
+
+    .home {
+        margin-top: 5em;
+    }
+
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .home-img-container {
+        order: 1;
+        margin-bottom: 2em;
+    }
+
+    .img-profile {
+        width: 18em;
+        height: 18em;
+    }
+
+    .home-text-container {
+        order: 2;
+    }
+
+    .home-buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-text-description {
+        text-align: center;
+        font-size: 1.1em;
+    }
+
+    .home-redes {
+        flex-wrap: wrap;
+        margin-top: 2em;
+        padding: 1.3em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon-container {
+        width: 6em;
+        height: 6em;
+        padding: 10px;
+    }
+
+    .icon-container .icon-text {
+        font-size: 1em;
+    }
+
+    .icon-container:hover {
+        transform: scale(1);
+    }
+
+    .home-title {
+        text-align: center;
+    }
+
+    .home-subtitle {
+        text-align: center;
+    }
+}

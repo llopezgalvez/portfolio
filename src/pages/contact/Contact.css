@@ -128,3 +128,24 @@
         justify-content: center;
     }
 }
+
+@media (max-width: 900px) {
+    .container-contact {
+        grid-template-columns: 1fr;
+    }
+
+    .img-contact {
+        padding-bottom: 2em;
+    }
+
+    .information {
+        padding-bottom: 1.2em;
+    }
+
+    .redes {
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

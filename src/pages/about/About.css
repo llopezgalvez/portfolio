@@ -27,7 +27,7 @@
     height: 44.5em;
 }
 
-.card-info ul  li {
+.card-info ul li {
     color: black;
 }
 
@@ -36,7 +36,7 @@
 }
 
 #title-datos-personales {
-    color:  #01c891 ;
+    color: #01c891;
 }
 
 #title-habilidades-blandas {
@@ -66,7 +66,8 @@
     gap: 1em;
 }
 
-.container-cards p, strong {
+.container-cards p,
+strong {
     color: black;
 }
 
@@ -81,6 +82,46 @@
         display: grid;
         grid-template-columns: 1fr;
         margin-bottom: 1em;
+    }
+
+    .cards-about {
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+    }
+
+    .card-info {
+        width: 100%;
+        /* Ajusta el ancho para pantallas pequeñas */
+        max-width: 20em;
+        /* Opcional: establece un ancho máximo */
+    }
+
+    .card-info-me {
+        width: 100%;
+        /* Ajusta el ancho para pantallas pequeñas */
+        max-width: 20em;
+        /* Opcional: establece un ancho máximo */
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1199px) {
+    .card-info-me {
+        width: 40em;
+        height: 42em;
+        margin: 1em auto;
+    }
+
+    .card-info {
+        width: 40em;
+    }
+
+    .container-cards {
+        display: grid;
+        place-items: center;
+        grid-template-columns: 1fr;
+        margin-bottom: 1em;
+        margin: 1em auto;
     }
 
     .cards-about {
