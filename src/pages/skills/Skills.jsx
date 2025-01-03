@@ -7,18 +7,18 @@ const skills = {
     frontend: [
         { type: 'HTML', level: 80, color: { bar: '#e34c26', title: { text: '#fff', background: '#e34c26' } } },
         { type: 'CSS', level: 70, color: { bar: '#2965f1', title: { text: '#fff', background: '#2965f1' } } },
-        { type: 'React', level: 80, color: { bar: '#61dafb', title: { text: '#000', background: '#61dafb' } } },
-        { type: 'React N.', level: 50, color: { bar: '#81a6d9', title: { text: '#000', background: '#81a6d9' } } },
+        { type: 'React', level: 60, color: { bar: '#61dafb', title: { text: '#000', background: '#61dafb' } } },
+        { type: 'React N.', level: 20, color: { bar: '#81a6d9', title: { text: '#000', background: '#81a6d9' } } },
     ],
     backend: [
         { type: 'Java', level: 80, color: { bar: '#9c9542', title: { text: '#fff', background: '#9c9542' } } },
         { type: 'JavaScript', level: 75, color: { bar: '#c0bf16', title: { text: '#fff', background: '#c0bf16' } } },
-        { type: 'Spring B.', level: 60, color: { bar: '#6db33f', title: { text: '#fff', background: '#6db33f' } } },
+        { type: 'Spring B.', level: 40, color: { bar: '#6db33f', title: { text: '#fff', background: '#6db33f' } } },
     ],
     databases: [
         { type: 'MySQL', level: 90, color: { bar: '#8b4aaf', title: { text: '#fff', background: '#8b4aaf' } } },
-        { type: 'PostgreSQL', level: 60, color: { bar: '#1eeaa3', title: { text: '#fff', background: '#1eeaa3' } } },
-        { type: 'MongoDB', level: 70, color: { bar: '#47a248', title: { text: '#fff', background: '#47a248' } } },
+        { type: 'PostgreSQL', level: 50, color: { bar: '#1eeaa3', title: { text: '#fff', background: '#1eeaa3' } } },
+        { type: 'MongoDB', level: 80, color: { bar: '#47a248', title: { text: '#fff', background: '#47a248' } } },
     ],
     versionControl: [
         { type: 'Git', level: 85, color: { bar: '#f05032', title: { text: '#fff', background: '#f05032' } } },
