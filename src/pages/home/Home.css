@@ -33,7 +33,7 @@ body {
     font-size: 1.2em;
 }
 
-@keyframes animation {
+/* @keyframes animation {
     0% {
         border: 3px solid #A3D8F4;
         box-shadow: 0 0 20px rgba(163, 216, 244, 0.8);
@@ -58,7 +58,7 @@ body {
         border: 3px solid #A3D8F4;
         box-shadow: 0 0 20px rgba(163, 216, 244, 0.8);
     }
-}
+} */
 
 .img-profile {
     width: 30em;
